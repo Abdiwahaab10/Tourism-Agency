@@ -61,7 +61,8 @@ header a {
 }
 
 header a:hover {
-    background: #0056b3;
+    background: #fff;
+    color: black;
     transform: scale(1.1);
 }
 
@@ -300,7 +301,7 @@ footer {
 }
 
 footer .container {
-    display: flex;
+    display: center;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
