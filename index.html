@@ -1,0 +1,110 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Somaliland Tourism Agency</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo"><span>Somaliland</span> <span class="white">&</span> <span class="red">Tourism</span></div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    
+        <header>
+            <h1>Discover the Beauty of Somaliland</h1>
+            <p>Explore breathtaking landscapes, rich history, and vibrant culture.</p>
+            <a href="#tours">Explore Tours</a>
+        </header>
+    
+        <div class="container" id="about">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-section">
+                <img src="kph.jpg" alt="About Somaliland">
+                <div class="about-text">
+                    <p>Discover Somaliland is dedicated to showcasing the breathtaking landscapes, rich history, and vibrant culture of Somaliland. Our mission is to provide unforgettable experiences for travelers and promote sustainable tourism in the region. Join us on an adventure and explore the wonders of Somaliland with our expert guides and curated tours.</p>
+                    <p>From the ancient cave paintings of Laas Geel to the pristine beaches of Berbera, Somaliland offers a unique blend of natural beauty and cultural heritage. We are committed to ensuring that every traveler leaves with memories that last a lifetime.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container" id="tours">
+            <h2 class="section-title">Popular Tours</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="lasgeel1.jpg" alt="Tour 1">
+                    <div class="card-content">
+                        <h3>Laas Geel Adventure</h3>
+                        <p>Discover ancient cave paintings and scenic landscapes.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="berberaQadiimi.jpg" alt="Tour 2">
+                    <div class="card-content">
+                        <h3>Berbera Beach Getaway</h3>
+                        <p>Relax on pristine beaches and enjoy local seafood.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="lasgel.jpg" alt="Tour 3">
+                    <div class="card-content">
+                        <h3>Historical Hargeisa</h3>
+                        <p>Explore the capital's rich history and bustling markets.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-section">
+                <img src="flag2.jpg" alt="Somaliland Flag">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    
+        <footer>
+            <div class="container">
+                <div>
+                    <p>&copy; 2025 Somaliland Tourism Agency. All Rights Reserved.</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    
+        <script>
+            // Hamburger Menu Toggle
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navLinks = document.querySelector('.nav-links');
+    
+            mobileMenu.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+            });
+        </script>
+    
+</body>
+</html>
